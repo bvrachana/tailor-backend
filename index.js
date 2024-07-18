@@ -11,7 +11,6 @@ const app = express();
 connectDatabase(); //connect mongodb
 
 
-
 app.use(cors());
  app.use(bodyParser.json()); 
  

@@ -8,4 +8,4 @@ routes.get('/users/:userId', getSingleUserDetails)
 routes.put('/users/update/:userId', UpdateUser)
 routes.delete('/users/delete/:username/:password/:userId', deleteUserDetails)
 
-module.exports = routes;
+module.exports = routes;
